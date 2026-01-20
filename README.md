@@ -15,11 +15,13 @@
 **ジョイスティック側:**
 ```bash
 ros2 run my_robot_pkg joy_controller
-
+```
 **モーター側:**
 ```bash
-```
 ros2 run my_robot_pkg dynamixel_driver
+
+```
+
 
 メモ
 USBデバイスを繋ぐときは usbipd attach ... を忘れない
